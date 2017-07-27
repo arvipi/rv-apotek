@@ -24,8 +24,8 @@ $message='
     $mail->Encoding = '7bit';
 
     // Authentication
-    $mail->Username   = "rakha.rvp@gmail.com"; // Your full Gmail address
-    $mail->Password   = "RVP14071997"; // Your Gmail password
+    $mail->Username   = ""; // Your full Gmail address
+    $mail->Password   = ""; // Your Gmail password
 
     // Compose
     $mail->SetFrom($email, $name, $phone);
